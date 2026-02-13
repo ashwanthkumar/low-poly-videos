@@ -1,0 +1,25 @@
+{
+  "name": "low-poly-videos",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts BahBahBlackSheep out/bah-bah-black-sheep.mp4 --gl=angle",
+    "render:instagram": "remotion render src/index.ts BahBahBlackSheepInstagram out/bah-bah-black-sheep-instagram.mp4 --gl=angle",
+    "build": "remotion render src/index.ts BahBahBlackSheep out/bah-bah-black-sheep.mp4 --gl=angle"
+  },
+  "dependencies": {
+    "@react-three/fiber": "^8.15.0",
+    "@remotion/three": "^4.0.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "remotion": "^4.0.0",
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "@remotion/cli": "^4.0.0",
+    "@types/react": "^18.3.0",
+    "@types/three": "^0.170.0",
+    "typescript": "^5.7.0"
+  }
+}

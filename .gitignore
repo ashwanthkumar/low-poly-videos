@@ -1,0 +1,15 @@
+node_modules/
+dist/
+out/
+.venv/
+.DS_Store
+*.wav
+
+# Rendered outputs
+videos/*/output/
+videos/*/frames/
+videos/test-characters/
+
+# IDE
+.vscode/
+.idea/
