@@ -6,6 +6,8 @@
     "dev": "remotion studio src/index.ts",
     "render": "remotion render src/index.ts BahBahBlackSheep out/bah-bah-black-sheep.mp4 --gl=angle",
     "render:instagram": "remotion render src/index.ts BahBahBlackSheepInstagram out/bah-bah-black-sheep-instagram.mp4 --gl=angle",
+    "render:twinkle": "remotion render src/index.ts TwinkleTwinkleLittleStar out/twinkle-twinkle-little-star.mp4 --gl=angle",
+    "render:twinkle:instagram": "remotion render src/index.ts TwinkleTwinkleLittleStarInstagram out/twinkle-twinkle-little-star-instagram.mp4 --gl=angle",
     "build": "remotion render src/index.ts BahBahBlackSheep out/bah-bah-black-sheep.mp4 --gl=angle"
   },
   "dependencies": {
